@@ -48,7 +48,7 @@ By implementing the Email/SMS Spam Classifier, the corporate email service can s
 
 The application is deployed on a Cloud Platform `Render`.
 
-You can access the application using the given Deployment Link: Email Spam Classifier
+You can access the application using the given Deployment Link: [Email Spam Classifier](https://email-spam-classifier-d792.onrender.com)
 
 
 # Features
