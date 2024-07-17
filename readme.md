@@ -44,7 +44,7 @@ The Email/SMS Spam Classifier leverages a voting ensemble model combining Multin
 
 By implementing the Email/SMS Spam Classifier, the corporate email service can significantly enhance the security and productivity of its users, providing a reliable and efficient solution for spam detection.
 
-# Deployment
+# Cloud Deployment Link:
 
 The application is deployed on a Cloud Platform `Render`.
 
