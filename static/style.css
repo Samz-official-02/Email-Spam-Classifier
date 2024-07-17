@@ -1,0 +1,80 @@
+body {
+    background-image: url('bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    overflow-y: auto; /* Allow vertical scrolling */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: Adds a semi-transparent white overlay for readability */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%; /* Adjust width as needed */
+    max-width: 800px; /* Max width for responsiveness */
+    margin-bottom: 20px; /* Ensure some space at the bottom */
+}
+
+h1 {
+    color: #333;
+    margin-top: 0;
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: calc(100% - 20px); /* Adjust width with padding */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none; /* Disable manual resizing */
+    overflow: hidden; /* Hide scrollbars */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result-box {
+    display: none; /* Initially hide result box */
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px; /* Larger text for readability */
+    width: calc(100% - 20px); /* Adjust width with padding */
+    text-align: center;
+}
+
+.result-box.spam {
+    background-color: #f8d7da; /* Light red background for spam */
+    border: 1px solid #f5c6cb; /* Slightly darker border for visibility */
+    color: #721c24; /* Dark red text color */
+}
+
+.result-box.not-spam {
+    background-color: #d4edda; /* Light green background for not spam */
+    border: 1px solid #c3e6cb; /* Slightly darker border for visibility */
+    color: #155724; /* Dark green text color */
+}
